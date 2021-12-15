@@ -30,15 +30,15 @@
           <a class="nav-link menupage mx-5" href="#">Tentang Kami</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link loginmenu rounded-pill mx-5" href="/<?= base_url(); ?>/view_login.php">LOG IN</a>
+          <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <!-- body -->
-  <div class="col-md-5 p-lg-5 my-5 textberanda">
-    <h1 class="display-4 font-weight-normal">Maksimalkan Kesempatan Yang Ada Untuk Masa Depanmu</h1>
+  <div class="col-md-5 p-lg-5 my-5 textputih">
+    <h1 class="display-4 font-weight-normal textputih">Maksimalkan Kesempatan Yang Ada Untuk Masa Depanmu</h1>
     <p class="lead font-weight-normal">
       <br>
       <br>
@@ -54,11 +54,11 @@
       <div class="d-flex align-items-center justify-content-between small">
         <div class="text-muted">Copyright &copy; 2021</div>
         <div class="text-muted">
-          <a href="#">Yanwar Slamet</a>
+          <a href="#" class="text-muted textputih">Yanwar Slamet</a>
           &middot;
-          <a href="#">Zahra Aulia</a>
+          <a href="#" class="text-muted textputih">Zahra Aulia</a>
           &middot;
-          <a href="#">Raflie Firmansyah</a>
+          <a href="#" class="text-muted textputih">Raflie Firmansyah</a>
         </div>
       </div>
     </div>
