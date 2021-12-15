@@ -42,17 +42,19 @@
     <p class="lead font-weight-normal">
       <br>
       <br>
-      <br>
       LAGA Mahasiswa adalah salah satu cara terbaik kamu untuk mengeksplor diri. Dengan mengikuti kegiatan kemahasiswaan yang ditawarkan.
     </p>
-    <a class="btn rounded button1" href="#">Cari Programmu</a>
+    <a class="btn rounded button1" href="#">Register Sekarang</a>
   </div>
 
   <!-- footer -->
-  <footer class="py-2 mt-auto">
+  <footer class="py-2">
     <div class="container-fluid px-4">
-      <div class="d-flex align-items-center justify-content-between small">
-        <div class="text-muted">Copyright &copy; 2021</div>
+      <div class="align-items-center d-flex small">
+        <div class="text-muted">
+          <img src="/img/logo2.png" alt="LAGA Mahasiswa" width="9%">
+          &nbsp; Copyright &copy; 2021
+        </div>
         <div class="text-muted">
           <a href="#" class="text-muted textputih">Yanwar Slamet</a>
           &middot;
