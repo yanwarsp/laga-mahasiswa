@@ -1,0 +1,53 @@
+body {
+  background-image: url("/img/beranda.jpg");
+  background-size: 100%;
+}
+
+.menupage {
+  text-decoration: none;
+  color: white;
+}
+
+.menupage-active {
+  text-decoration: none;
+  color: #26b2ab;
+}
+
+.nav-bgcolor {
+  background-color: black;
+}
+
+.loginmenu {
+  background-color: white;
+  color: #26b2ab;
+  text-decoration: none;
+}
+
+.menupage:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.loginmenu:hover,
+.menupage-active:hover {
+  text-decoration: none;
+  color: #26b2ab;
+}
+
+.button1 {
+  background-color: #26b2ab;
+  color: white;
+  text-decoration: none;
+}
+
+.textberanda {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  clear: both;
+  position: relative;
+}
