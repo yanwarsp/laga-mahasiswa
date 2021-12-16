@@ -27,12 +27,6 @@
           <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/magang">Magang</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/lomba">Lomba</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <li class="nav-item">
