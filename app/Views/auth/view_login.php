@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="/css/styles.css">
 
-  <title>Hello, world!</title>
+  <title>Login</title>
 </head>
 
 <body class="bodyimg">
@@ -37,15 +37,44 @@
   </nav>
 
   <!-- body -->
-  <div class="col-md-5 p-lg-5 my-5 textputih">
-    <h1 class="display-4 font-weight-normal textputih">Maksimalkan Kesempatan Yang Ada Untuk Masa Depanmu</h1>
-    <p class="lead font-weight-normal">
-      <br>
-      <br>
-      LAGA Mahasiswa adalah salah satu cara terbaik kamu untuk mengeksplor diri. Dengan mengikuti kegiatan kemahasiswaan yang ditawarkan.
-    </p>
-    <a class="btn rounded button1" href="#">Register Sekarang</a>
+  <div class="container mt-5 mb-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="card shadow-lg border-0 rounded-lg mt-5 my-5">
+          <div class="card-header">
+            <h2 class="text-center font-weight-light my-5 texthijau">Login</h2>
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-floating mb-4">
+                <input class="form-control" id="username" type="" placeholder="Username" />
+                <label for="username">Username</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input class="form-control" id="password" type="password" placeholder="Password" />
+                <label for="password">Password</label>
+              </div>
+              <div class="
+                          d-flex
+                          align-items-center
+                          justify-content-between
+                          mt-4
+                          mb-0
+                        ">
+                <button class="button1 btn">Login</button>
+              </div>
+            </form>
+          </div>
+          <div class="card-footer text-center py-3">
+            <div class="small">
+              <a href="base" class="texthijau">Belum punya akun ? Register Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 
   <!-- footer -->
   <footer class="py-2">

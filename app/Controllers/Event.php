@@ -8,6 +8,6 @@ class Event extends BaseController
 {
     public function index()
     {
-        //
+        echo view("event/view_event");
     }
 }

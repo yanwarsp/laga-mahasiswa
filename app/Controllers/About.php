@@ -4,12 +4,10 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Login extends BaseController
+class About extends BaseController
 {
     public function index()
     {
-        return view('auth/view_login');
+        echo view("view_tentangkami");
     }
-
-
 }

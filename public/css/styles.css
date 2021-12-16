@@ -1,5 +1,5 @@
 .bodyimg {
-  background-image: url("/img/beranda1.jpg");
+  background-image: url("/img/beranda.jpg");
   background-size: 100%;
 }
 
@@ -45,8 +45,54 @@
   text-decoration: none;
 }
 
+.button1:hover {
+  background-color: #158d87;
+  color: white;
+  text-decoration: none;
+}
+
+.button2 {
+  color: #26b2ab;
+  background-color: white;
+  text-decoration: none;
+}
+
 .textputih {
   color: white;
+}
+
+.texthijau {
+  color: #26b2ab;
+  text-decoration: none;
+}
+
+.texthijau:hover {
+  color: #26b2ab;
+}
+
+.texthitam {
+  color: black;
+  text-decoration: none;
+}
+
+.texthitam:hover {
+  color: #26b2ab;
+}
+
+.bghijau {
+  background-color: #26b2ab;
+}
+
+.bgradius {
+  border-radius: 8px;
+}
+
+.animmenu {
+  transition: 0.3s ease-in;
+}
+
+.animmenu:hover {
+  transform: scale(1.1);
 }
 
 footer {

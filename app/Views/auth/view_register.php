@@ -37,26 +37,42 @@
   </nav>
 
   <!-- body -->
-  <div class="container">
+  <div class="container mt-5 mb-4">
     <div class="row justify-content-center">
       <div class="col-lg-5">
         <div class="card shadow-lg border-0 rounded-lg mt-5 my-5">
           <div class="card-header">
-            <h3 class="text-center font-weight-light my-5">Login</h3>
+            <h2 class="text-center font-weight-light my-5 texthijau">Register</h2>
           </div>
           <div class="card-body">
             <form>
-              <div class="form-floating mb-3">
-                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                <label for="inputEmail">Email address</label>
+              <div class="row">
+                <div class="form-floating mb-4">
+                  <input class="form-control" id="nama" type="text" placeholder="Nama Lengkap" />
+                  <label for="nama">Nama Lengkap</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input class="form-control" id="nim" type="text" placeholder="NIM" />
+                  <label for="nim">NIM</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input class="form-control" id="jurusan" type="text" placeholder="Jurusan" />
+                  <label for="jurusan">Jurusan</label>
+                </div>
               </div>
-              <div class="form-floating mb-3">
-                <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
-                <label for="inputPassword">Password</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
-                <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
+              <div class="row">
+                <div class="form-floating mb-4">
+                  <input class="form-control" id="email" type="email" placeholder="Email" />
+                  <label for="email">Email UPJ</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input class="form-control" id="password" type="password" placeholder="Konfirmasi Password" />
+                  <label for="password">Password</label>
+                </div>
+                <div class="form-floating mb-4">
+                  <input class="form-control" id="cpassword" type="password" placeholder="Password" />
+                  <label for="cpassword">Konfirmasi Password</label>
+                </div>
               </div>
               <div class="
                           d-flex
@@ -65,14 +81,13 @@
                           mt-4
                           mb-0
                         ">
-                <a class="small" href="password.html">Forgot Password?</a>
-                <a class="btn btn-primary" href="index.html">Login</a>
+                <button class="button1 btn">Register</button>
               </div>
             </form>
           </div>
           <div class="card-footer text-center py-3">
             <div class="small">
-              <a href="register.html">Need an account? Sign up!</a>
+              <a href="base" class="texthijau">Sudah punya akun ? Login</a>
             </div>
           </div>
         </div>

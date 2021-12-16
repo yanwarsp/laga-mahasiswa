@@ -8,6 +8,6 @@ class Register extends BaseController
 {
     public function index()
     {
-        return view('view_register');
+        return view('auth/view_register');
     }
 }

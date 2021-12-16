@@ -24,10 +24,10 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link menupage-active mx-5" href="#">Beranda</a>
+          <a class="nav-link menupage-active mx-5" href="<?= base_url(); ?>/">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Tentang Kami</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <li class="nav-item">
           <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
@@ -44,7 +44,7 @@
       <br>
       LAGA Mahasiswa adalah salah satu cara terbaik kamu untuk mengeksplor diri. Dengan mengikuti kegiatan kemahasiswaan yang ditawarkan.
     </p>
-    <a class="btn rounded button1" href="#">Register Sekarang</a>
+    <a class="btn rounded button1" href="<?= base_url(); ?>/register">Register Sekarang</a>
   </div>
 
   <!-- footer -->
