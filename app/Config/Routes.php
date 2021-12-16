@@ -32,9 +32,22 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+
 $routes->get('/magang', 'Magang::index', ['filter' => 'auth']);
+$routes->get('/magang/keuangan', 'Magang::keuangan', ['filter' => 'auth']);
+$routes->get('/magang/ict', 'Magang::ict', ['filter' => 'auth']);
+$routes->get('/magang/marketing', 'Magang::marketing', ['filter' => 'auth']);
+$routes->get('/magang/studio', 'Magang::studio', ['filter' => 'auth']);
+$routes->get('/magang/asdos', 'Magang::asdos', ['filter' => 'auth']);
+
 $routes->get('/lomba', 'Lomba::index', ['filter' => 'auth']);
+$routes->get('/lomba/ukm', 'Lomba::ukm', ['filter' => 'auth']);
+$routes->get('/lomba/hmj', 'Lomba::hmj', ['filter' => 'auth']);
+$routes->get('/lomba/bem', 'Lomba::bem', ['filter' => 'auth']);
+$routes->get('/lomba/general', 'Lomba::general', ['filter' => 'auth']);
+
 $routes->get('/profil', 'Profil::index', ['filter' => 'auth']);
+
 
 
 

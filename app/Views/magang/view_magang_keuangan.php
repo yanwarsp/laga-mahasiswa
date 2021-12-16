@@ -16,27 +16,24 @@
 
 
 <body class="bodycolor">
-   <!-- navbar -->
-   <nav class="navbar navbar-expand-sm nav-bgcolor">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm nav-bgcolor">
     <div class="container-fluid">
       <a class="navbar-brand" href="">
         <img class="mx-3" src="/img/logo.png" alt="LAGA Mahasiswa" style="width:120px;">
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Beranda</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage-active mx-5" href="#">Magang</a>
+          <a class="nav-link menupage-active mx-5" href="<?= base_url(); ?>/magang">Magang</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Lomba</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/lomba">Lomba</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Event</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Tentang Kami</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <?php if (!session()->get('logged_in')) : ?>
           <li class="nav-item">
