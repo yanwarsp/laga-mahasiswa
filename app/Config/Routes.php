@@ -33,7 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/magang', 'Magang::index', ['filter' => 'auth']);
-$routes->get('/lomba', 'Lomba::inLex', ['filter' => 'auth']);
+$routes->get('/lomba', 'Lomba::index', ['filter' => 'auth']);
 $routes->get('/profil', 'Profil::index', ['filter' => 'auth']);
 
 

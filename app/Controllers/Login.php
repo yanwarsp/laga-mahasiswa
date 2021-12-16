@@ -9,10 +9,15 @@ class Login extends BaseController
 {
     public function index()
     {
-        $data = [
-            'validation' => \Config\Services::validation()
-        ];
-        return view('auth/view_login', $data);
+
+        if (session()->get('logged_in')) {
+            return redirect()->to(base_url('/'));
+        } else {
+            $data = [
+                'validation' => \Config\Services::validation()
+            ];
+            return view('auth/view_login', $data);
+        }
     }
 
     public function logout()
