@@ -9,7 +9,7 @@ class Magang extends Migration
     public function up()
     {
         $this->forge->addField([
-            'namalengkap' => [
+            'nama' => [
                 'type' => 'VARCHAR',
                 'constraint' => 100,
             ],
