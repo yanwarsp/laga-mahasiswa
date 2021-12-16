@@ -59,13 +59,13 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span data-feather="file-text"></span>
+                <span data-feather="users"></span>
                 Orders
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span data-feather="shopping-cart"></span>
+                <span data-feather="file-text"></span>
                 Products
               </a>
             </li>
