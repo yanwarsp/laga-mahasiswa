@@ -63,8 +63,23 @@
                     <label for="nim">NIM</label>
                   </div>
                   <div class="form-floating mb-4">
-                    <input class="form-control" id="jurusan" type="text" placeholder="Jurusan" />
-                    <label for="jurusan">Jurusan</label>
+                    <select class="form-control" name="prodi" id="prodi">
+                      <option selected>Pilih Prodi...</option>
+                      <option value="Akuntansi">Akuntansi</option>
+                      <option value="Manajemen">Manajemen</option>
+                      <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                      <option value="Psikologi">Psikologi</option>
+                      <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+                      <option value="Desain Produk">Desain Produk</option>
+                      <option value="Informatika">Informatika</option>
+                      <option value="Sistem Informasi">Sistem Informasi</option>
+                      <option value="Teknik Sipil">Teknik Sipil</option>
+                      <option value="Arsitektur">Arsitektur</option>
+
+
+
+                    </select>
+                    <label for="prodi">Program Studi</label>
                   </div>
                 </div>
                 <div class="col-6">
