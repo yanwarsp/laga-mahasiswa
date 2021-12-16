@@ -6,8 +6,23 @@ use App\Controllers\BaseController;
 
 class Admin extends BaseController
 {
-    public function index()
+    public function dashboard()
     {
-        echo view("admin/index");
+        echo view("admin/view_dashboard");
+    }
+
+    public function listusers()
+    {
+        echo view("admin/view_listusers");
+    }
+
+    public function managemagang()
+    {
+        echo view("admin/view_managemagang");
+    }
+
+    public function managelomba()
+    {
+        echo view("admin/view_managelomba");
     }
 }

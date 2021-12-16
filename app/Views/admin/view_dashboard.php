@@ -9,7 +9,7 @@
   <meta name="generator" content="Hugo 0.88.1">
   <title>LAGA Mahasiswa - Dashboard Admin</title>
 
-  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="/css/dashboard.css">
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -60,31 +60,19 @@
             <li class="nav-item">
               <a class="nav-link" href="#">
                 <span data-feather="users"></span>
-                Orders
+                List Users
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span data-feather="file-text"></span>
-                Products
+                <span data-feather="archive"></span>
+                Manage Magang
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <span data-feather="users"></span>
-                Customers
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="bar-chart-2"></span>
-                Reports
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <span data-feather="layers"></span>
-                Integrations
+                <span data-feather="award"></span>
+                Manage Lomba
               </a>
             </li>
           </ul>
