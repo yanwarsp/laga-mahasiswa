@@ -32,9 +32,6 @@
           <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/lomba">Lomba</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/event">Event</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <li class="nav-item">

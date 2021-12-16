@@ -47,40 +47,36 @@
           <div class="card-body">
             <form>
               <div class="row">
-                <div class="form-floating mb-4">
-                  <input class="form-control" id="nama" type="text" placeholder="Nama Lengkap" />
-                  <label for="nama">Nama Lengkap</label>
+                <div class="col-6">
+                  <div class="form-floating mb-4">
+                    <input class="form-control" id="nama" type="text" placeholder="Nama Lengkap" />
+                    <label for="nama">Nama Lengkap</label>
+                  </div>
+                  <div class="form-floating mb-4">
+                    <input class="form-control" id="nim" type="text" placeholder="NIM" />
+                    <label for="nim">NIM</label>
+                  </div>
+                  <div class="form-floating mb-4">
+                    <input class="form-control" id="jurusan" type="text" placeholder="Jurusan" />
+                    <label for="jurusan">Jurusan</label>
+                  </div>
                 </div>
-                <div class="form-floating mb-4">
-                  <input class="form-control" id="nim" type="text" placeholder="NIM" />
-                  <label for="nim">NIM</label>
-                </div>
-                <div class="form-floating mb-4">
-                  <input class="form-control" id="jurusan" type="text" placeholder="Jurusan" />
-                  <label for="jurusan">Jurusan</label>
+                <div class="col-6">
+                  <div class="form-floating mb-4">
+                    <input class="form-control" id="email" type="email" placeholder="Email" />
+                    <label for="email">Email UPJ</label>
+                  </div>
+                  <div class="form-floating mb-4">
+                    <input class="form-control" id="password" type="password" placeholder="Konfirmasi Password" />
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="form-floating mb-4">
+                    <input class="form-control" id="cpassword" type="password" placeholder="Password" />
+                    <label for="cpassword">Konfirmasi Password</label>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="form-floating mb-4">
-                  <input class="form-control" id="email" type="email" placeholder="Email" />
-                  <label for="email">Email UPJ</label>
-                </div>
-                <div class="form-floating mb-4">
-                  <input class="form-control" id="password" type="password" placeholder="Konfirmasi Password" />
-                  <label for="password">Password</label>
-                </div>
-                <div class="form-floating mb-4">
-                  <input class="form-control" id="cpassword" type="password" placeholder="Password" />
-                  <label for="cpassword">Konfirmasi Password</label>
-                </div>
-              </div>
-              <div class="
-                          d-flex
-                          align-items-center
-                          justify-content-between
-                          mt-4
-                          mb-0
-                        ">
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
                 <button class="button1 btn">Register</button>
               </div>
             </form>
