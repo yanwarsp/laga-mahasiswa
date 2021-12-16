@@ -24,10 +24,10 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link menupage-active mx-5" href="#">Beranda</a>
+          <a class="nav-link menupage-active mx-5" href="<?= base_url(); ?>/">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Tentang Kami</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <li class="nav-item">
           <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
@@ -47,11 +47,11 @@
           <div class="card-body">
             <form>
               <div class="form-floating mb-4">
-                <input class="form-control" id="username" type="" placeholder="Username" />
+                <input class="form-control" id="username" type="text" name="username" placeholder="Username" />
                 <label for="username">Username</label>
               </div>
               <div class="form-floating mb-3">
-                <input class="form-control" id="password" type="password" placeholder="Password" />
+                <input class="form-control" id="password" type="password" name="password" placeholder="Password" />
                 <label for="password">Password</label>
               </div>
               <div class="
@@ -67,7 +67,7 @@
           </div>
           <div class="card-footer text-center py-3">
             <div class="small">
-              <a href="base" class="texthijau">Belum punya akun ? Register Sekarang</a>
+              <a href="<?= base_url(); ?>/register" class="texthijau">Belum punya akun ? Register Sekarang</a>
             </div>
           </div>
         </div>

@@ -24,10 +24,10 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link menupage-active mx-5" href="#">Beranda</a>
+          <a class="nav-link menupage-active mx-5" href="<?= base_url(); ?>/">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Tentang Kami</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <li class="nav-item">
           <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
@@ -83,7 +83,7 @@
           </div>
           <div class="card-footer text-center py-3">
             <div class="small">
-              <a href="base" class="texthijau">Sudah punya akun ? Login</a>
+              <a href="<?= base_url(); ?>/login" class="texthijau">Sudah punya akun ? Login</a>
             </div>
           </div>
         </div>
