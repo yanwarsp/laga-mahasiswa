@@ -11,9 +11,9 @@ class Admin extends BaseController
         echo view("admin/view_dashboard");
     }
 
-    public function listusers()
+    public function daftaruser()
     {
-        echo view("admin/view_listusers");
+        echo view("admin/view_daftaruser");
     }
 
     public function managemagang()
