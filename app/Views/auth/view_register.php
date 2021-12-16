@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="/css/styles.css">
 
-  <title>Login</title>
+  <title>LAGA Mahasiswa | Register</title>
 </head>
 
 <body class="bodyimg">
@@ -51,15 +51,16 @@
             <h2 class="text-center font-weight-light my-5 texthijau">Register</h2>
           </div>
           <div class="card-body">
-            <form>
+            <form action="<?= base_url(); ?>/register/submitregister" method="POST">
               <div class="row">
                 <div class="col-6">
+                  <?= $validation->listErrors(); ?>
                   <div class="form-floating mb-4">
-                    <input class="form-control" id="nama" type="text" placeholder="Nama Lengkap" />
+                    <input class="form-control" id="nama" type="text" name="nama" placeholder="Nama Lengkap" />
                     <label for="nama">Nama Lengkap</label>
                   </div>
                   <div class="form-floating mb-4">
-                    <input class="form-control" id="nim" type="text" placeholder="NIM" />
+                    <input class="form-control" id="nim" type="text" name="nim" placeholder="NIM" />
                     <label for="nim">NIM</label>
                   </div>
                   <div class="form-floating mb-4">
@@ -75,30 +76,27 @@
                       <option value="Sistem Informasi">Sistem Informasi</option>
                       <option value="Teknik Sipil">Teknik Sipil</option>
                       <option value="Arsitektur">Arsitektur</option>
-
-
-
                     </select>
                     <label for="prodi">Program Studi</label>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="form-floating mb-4">
-                    <input class="form-control" id="email" type="email" placeholder="Email" />
+                    <input class="form-control" id="email" type="email" name="email" placeholder="Email" />
                     <label for="email">Email UPJ</label>
                   </div>
                   <div class="form-floating mb-4">
-                    <input class="form-control" id="password" type="password" placeholder="Konfirmasi Password" />
+                    <input class="form-control" id="password" type="password" name="password" placeholder="Password" />
                     <label for="password">Password</label>
                   </div>
                   <div class="form-floating mb-4">
-                    <input class="form-control" id="cpassword" type="password" placeholder="Password" />
+                    <input class="form-control" id="cpassword" type="password" name="cpassword" placeholder="Konfirmasi Password" />
                     <label for="cpassword">Konfirmasi Password</label>
                   </div>
                 </div>
               </div>
               <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                <button class="button1 btn">Register</button>
+                <button type="submit" class="button1 btn">Register</button>
               </div>
             </form>
           </div>

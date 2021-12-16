@@ -9,7 +9,7 @@ class Users extends Migration
     public function up()
     {
         $this->forge->addField([
-            'namalengkap' => [
+            'nama' => [
                 'type' => 'VARCHAR',
                 'constraint' => 100,
             ],
@@ -17,9 +17,9 @@ class Users extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 255,
             ],
-            'username' => [
+            'nim' => [
                 'type' => 'VARCHAR',
-                'constraint' => 20,
+                'constraint' => 10,
             ],
             'prodi' => [
                 'type' => 'VARCHAR',
@@ -42,7 +42,7 @@ class Users extends Migration
                 'null' => TRUE,
             ],
         ]);
-        $this->forge->addPrimaryKey('username', true);
+        $this->forge->addPrimaryKey('nim', true);
         $this->forge->createTable('users');
     }
 
