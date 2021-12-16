@@ -9,29 +9,32 @@ class Magang extends Migration
     public function up()
     {
         $this->forge->addField([
+            'id' => [
+                'type' => 'INT',
+                'constraint' => 20,
+                'auto_increment' => true,
+            ],
             'nama' => [
                 'type' => 'VARCHAR',
                 'constraint' => 100,
             ],
-            'password' => [
+            'penyelenggara' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => 50,
             ],
-            'username' => [
+            'sektor' => [
                 'type' => 'VARCHAR',
                 'constraint' => 20,
             ],
-            'prodi' => [
-                'type' => 'VARCHAR',
-                'constraint' => 40,
+            'poin' => [
+                'type' => 'INT',
+                'constraint' => 10,
             ],
-            'email' => [
-                'type' => 'VARCHAR',
-                'constraint' => 60,
+            'kriteria' => [
+                'type' => 'TEXT',
             ],
-            'foto' => [
-                'type' => 'VARCHAR',
-                'constraint' => 20,
+            'deskripsi' => [
+                'type' => 'TEXT',
             ],
             'created_at' => [
                 'type' => 'DATETIME',
@@ -42,7 +45,7 @@ class Magang extends Migration
                 'null' => TRUE,
             ],
         ]);
-        $this->forge->addPrimaryKey('username', true);
+        $this->forge->addPrimaryKey('id', true);
         $this->forge->createTable('magang');
     }
 

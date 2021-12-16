@@ -9,29 +9,36 @@ class Lomba extends Migration
     public function up()
     {
         $this->forge->addField([
-            'namalengkap' => [
+            'id' => [
+                'type' => 'INT',
+                'constraint' => 20,
+                'auto_increment' => true,
+            ],
+            'nama' => [
                 'type' => 'VARCHAR',
                 'constraint' => 100,
             ],
-            'password' => [
+            'penyelenggara' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => 50,
             ],
-            'username' => [
-                'type' => 'VARCHAR',
-                'constraint' => 20,
-            ],
-            'prodi' => [
+            'kelompok' => [
                 'type' => 'VARCHAR',
                 'constraint' => 40,
             ],
-            'email' => [
-                'type' => 'VARCHAR',
-                'constraint' => 60,
+            'hadiah' => [
+                'type' => 'INT',
+                'constraint' => 10,
             ],
-            'foto' => [
-                'type' => 'VARCHAR',
-                'constraint' => 20,
+            'poin' => [
+                'type' => 'INT',
+                'constraint' => 10,
+            ],
+            'kriteria' => [
+                'type' => 'TEXT',
+            ],
+            'deskripsi' => [
+                'type' => 'TEXT',
             ],
             'created_at' => [
                 'type' => 'DATETIME',
@@ -42,7 +49,7 @@ class Lomba extends Migration
                 'null' => TRUE,
             ],
         ]);
-        $this->forge->addPrimaryKey('username', true);
+        $this->forge->addPrimaryKey('id', true);
         $this->forge->createTable('lomba');
     }
 
