@@ -14,7 +14,7 @@
   <title>Hello, world!</title>
 </head>
 
-<body>
+<body class="bodyimg">
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-sm nav-bgcolor">
@@ -51,16 +51,16 @@
   <footer class="py-2">
     <div class="container-fluid px-4">
       <div class="align-items-center d-flex small">
-        <div class="text-muted">
+        <div class="text-muted col-sm">
           <img src="/img/logo2.png" alt="LAGA Mahasiswa" width="9%">
           &nbsp; Copyright &copy; 2021
         </div>
         <div class="text-muted">
-          <a href="#" class="text-muted textputih">Yanwar Slamet</a>
+          <a href="#" class="text-muted textputih">Yanwar</a>
           &middot;
-          <a href="#" class="text-muted textputih">Zahra Aulia</a>
+          <a href="#" class="text-muted textputih">Zahra</a>
           &middot;
-          <a href="#" class="text-muted textputih">Raflie Firmansyah</a>
+          <a href="#" class="text-muted textputih">Raflie</a>
         </div>
       </div>
     </div>
