@@ -47,27 +47,23 @@
     <div class="row justify-content-center">
       <div class="col-lg-5">
         <div class="card shadow-lg border-0 rounded-lg mt-5 my-5">
-          <div class="card-header">
-            <h2 class="text-center font-weight-light my-5 texthijau">Login</h2>
+          <div class="card-header texthijau">
+            <h2 class="text-center font-weight-light my-5 ">Login</h2>
+            <p class="text-danger"><?= session()->getFlashdata('error'); ?> </p>
+            <?= $validation->listErrors(); ?>
           </div>
           <div class="card-body">
-            <form>
+            <form action="<?= base_url(); ?>/login/submitlogin" method="POST">
               <div class="form-floating mb-4">
-                <input class="form-control" id="username" type="text" name="username" placeholder="Username" />
-                <label for="username">Username</label>
+                <input class="form-control" id="nim" type="text" name="nim" placeholder="NIM" />
+                <label for="nim">NIM</label>
               </div>
               <div class="form-floating mb-3">
                 <input class="form-control" id="password" type="password" name="password" placeholder="Password" />
                 <label for="password">Password</label>
               </div>
-              <div class="
-                          d-flex
-                          align-items-center
-                          justify-content-between
-                          mt-4
-                          mb-0
-                        ">
-                <button class="button1 btn">Login</button>
+              <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+                <button type="submit" class="button1 btn">Login</button>
               </div>
             </form>
           </div>

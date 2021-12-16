@@ -45,12 +45,6 @@ class Register extends BaseController
 
             $model->insert($data);
             return redirect()->to(base_url('login'));
-
-            // if ($model->insert($data)) {
-            //     return redirect()->to('/login');
-            // } else {
-            //     echo "data tidak berhasil disimpan";
-            // }
         } else {
             return redirect()->to(base_url('register'))->withInput();
         }

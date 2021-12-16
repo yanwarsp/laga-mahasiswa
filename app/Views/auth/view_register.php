@@ -47,14 +47,14 @@
     <div class="row justify-content-center">
       <div class="col-lg-5">
         <div class="card shadow-lg border-0 rounded-lg mt-5 my-5">
-          <div class="card-header">
-            <h2 class="text-center font-weight-light my-5 texthijau">Register</h2>
+          <div class="card-header texthijau">
+            <h2 class="text-center font-weight-light my-5">Register</h2>
+            <?= $validation->listErrors(); ?>
           </div>
           <div class="card-body">
             <form action="<?= base_url(); ?>/register/submitregister" method="POST">
               <div class="row">
                 <div class="col-6">
-                  <?= $validation->listErrors(); ?>
                   <div class="form-floating mb-4">
                     <input class="form-control" id="nama" type="text" name="nama" placeholder="Nama Lengkap" />
                     <label for="nama">Nama Lengkap</label>

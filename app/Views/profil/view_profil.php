@@ -43,6 +43,7 @@
   </nav>
 
   <!-- body -->
+  <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login/logout">LOG OUT</a>
 
 
   <!-- footer -->

@@ -38,6 +38,11 @@
         <li class="nav-item">
           <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
         </li>
+        <?php if (!session()) : ?>
+          <li class="nav-item">
+            <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">profil</a>
+          </li>
+        <?php endif; ?>
       </ul>
     </div>
   </nav>
