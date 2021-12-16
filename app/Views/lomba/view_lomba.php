@@ -34,9 +34,18 @@
         <li class="nav-item">
           <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
-        </li>
+        <?php if (!session()->get('logged_in')) : ?>
+          <li class="nav-item">
+            <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login">LOG IN</a>
+          </li>
+        <?php endif; ?>
+        <?php if (session()->get('logged_in')) : ?>
+          <li class="nav-item">
+            <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/profil"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
+              </svg></a>
+          </li>
+        <?php endif; ?>
       </ul>
     </div>
   </nav>
@@ -47,7 +56,7 @@
     <br>
     <div class="row">
       <div class="col">
-        <a href="<?= base_url(); ?>/magang/keuangan" class="text-muted texthitam">
+        <a href="<?= base_url(); ?>/lomba/ukm" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
             <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
             <div class="card-body">
@@ -57,7 +66,7 @@
         </a>
       </div>
       <div class="col mx-1">
-        <a href="<?= base_url(); ?>/magang/ict" class="text-muted texthitam">
+        <a href="<?= base_url(); ?>/lomba/hmj" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
             <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
             <div class="card-body">
@@ -67,7 +76,7 @@
         </a>
       </div>
       <div class="col">
-        <a href="<?= base_url(); ?>/magang/marketing" class="text-muted texthitam">
+        <a href="<?= base_url(); ?>/lomba/bem" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
             <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
             <div class="card-body">
@@ -77,7 +86,7 @@
         </a>
       </div>
       <div class="col">
-        <a href="<?= base_url(); ?>/magang/studio" class="text-muted texthitam">
+        <a href="<?= base_url(); ?>/lomba/general" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
             <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
             <div class="card-body">
