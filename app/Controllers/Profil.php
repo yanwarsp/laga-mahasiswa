@@ -9,7 +9,10 @@ class Profil extends BaseController
 {
     public function index()
     {
-        echo view("profil/view_profil");
+        $model = new UsersModel();
+        $data['users'] = $model->getUsers();
+
+        echo view("profil/view_profil", $data);
     }
 
     public function edit($nim = null)
@@ -35,7 +38,7 @@ class Profil extends BaseController
         $alamat = $this->request->getVar('alamat');
         $session = session();
 
-        $data['users'] = [
+        $data = [
             'nama' => $nama,
             'prodi' => $prodi,
             'email' => $email,

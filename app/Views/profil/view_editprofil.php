@@ -71,7 +71,7 @@
 			<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
 				<div class="card h-100">
 					<div class="card-body">
-						<form action="<?= base_url(); ?>/profil/submitedit" method="POST">
+						<form action="<?= base_url(); ?>/profil/update" method="POST">
 							<div class="row gutters">
 								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 									<h2 class="mt-3 mb-3" style="color: #26b2ab;">Edit Profile</h2> <br>
