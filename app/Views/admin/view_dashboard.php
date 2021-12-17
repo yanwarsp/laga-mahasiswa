@@ -41,7 +41,7 @@
     </button>
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Log out</a>
+        <a class="nav-link px-3" href="<?= base_url(); ?>/admin/logout">Log out</a>
       </div>
     </div>
   </header>
@@ -82,7 +82,6 @@
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 
         <h2 class="mt-4">Welcome Administrator!</h2>
-        butto
       </main>
     </div>
   </div>

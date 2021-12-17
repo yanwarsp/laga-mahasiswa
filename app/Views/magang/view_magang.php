@@ -109,10 +109,10 @@
   </div>
 
   <!-- semua magang -->
-  <div class="container mt-5 ">
+  <div class="container mt-5 mb-3">
     <div class="row bghijau bgradius">
       <h4 class="textputih mt-4 text-center">Semua Kegiatan Magang</h4>
-      <div class="row mt-3 d-flex justify-content-center align-items-center">
+      <div class="row mt-3 d-flex justify-content-center align-items-center mb-3">
         <div class="col-sm-6 mt-3">
           <div class="card w-80">
             <div class="card-body">
@@ -173,26 +173,27 @@
       </div>
       <br>
     </div>
+  </div>
 
 
-    <!-- footer -->
-    <footer class="py-2">
-      <div class="container-fluid px-4">
-        <div class="align-items-center d-flex small">
-          <div class="text-muted col-sm">
-            <img src="/img/logo2.png" alt="LAGA Mahasiswa" width="9%">
-            &nbsp; Copyright &copy; 2021
-          </div>
-          <div class="text-muted">
-            <a href="#" class="text-muted textputih">Yanwar</a>
-            &middot;
-            <a href="#" class="text-muted textputih">Zahra</a>
-            &middot;
-            <a href="#" class="text-muted textputih">Raflie</a>
-          </div>
+  <!-- footer -->
+  <footer class="py-2">
+    <div class="container-fluid px-4">
+      <div class="align-items-center d-flex small">
+        <div class="text-muted col-sm">
+          <img src="/img/logo2.png" alt="LAGA Mahasiswa" width="9%">
+          &nbsp; Copyright &copy; 2021
+        </div>
+        <div class="text-muted">
+          <a href="#" class="text-muted textputih">Yanwar</a>
+          &middot;
+          <a href="#" class="text-muted textputih">Zahra</a>
+          &middot;
+          <a href="#" class="text-muted textputih">Raflie</a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 </body>
 
 </html>

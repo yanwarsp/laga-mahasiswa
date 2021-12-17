@@ -31,4 +31,10 @@ class Admin extends BaseController
     {
         echo view("admin/view_managelomba");
     }
+
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to(base_url('home'));
+    }
 }

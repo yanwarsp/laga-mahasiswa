@@ -33,7 +33,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/lomba">Lomba</a>
-
           </li>
         <?php endif; ?>
         <li class="nav-item">
