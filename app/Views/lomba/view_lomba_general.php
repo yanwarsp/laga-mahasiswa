@@ -59,7 +59,7 @@
 
   <div class="container mt-5 mb-3">
     <div class="row bghijau bgradius">
-      <h4 class="textputih mt-4 text-center">Semua Kegiatan Magang</h4>
+      <h4 class="textputih mt-4 text-center">Semua Lomba</h4>
       <div class="row mt-3 d-flex justify-content-center align-items-center mb-3">
         <div class="col-sm-6 mt-3">
           <div class="card w-80">

@@ -15,11 +15,11 @@ class Profil extends BaseController
         echo view("profil/view_profil", $data);
     }
 
-    public function edit($nim = null)
+    public function edit($nama = null)
     {
-        if ($nim != null) {
+        if ($nama != null) {
             $model = new UsersModel();
-            $data['users'] = $model->where('nim', $nim)->first();
+            $data['users'] = $model->where('nama', $nama)->first();
             // SELECT * FROM users WHERE nim=$nim
             echo view("profil/view_editprofil", $data);
         }
@@ -28,7 +28,6 @@ class Profil extends BaseController
     public function update()
     {
         $model = new UsersModel();
-        $nim = $this->request->getVar('nim');
         $nama = $this->request->getVar('nama');
         $prodi = $this->request->getVar('prodi');
         $email = $this->request->getVar('email');
@@ -36,9 +35,9 @@ class Profil extends BaseController
         $kewarganegaraan = $this->request->getVar('kewarganegaraan');
         $agama = $this->request->getVar('agama');
         $alamat = $this->request->getVar('alamat');
-        $session = session();
+        session();
 
-        $data = [
+        $data['users'] = [
             'nama' => $nama,
             'prodi' => $prodi,
             'email' => $email,
@@ -48,7 +47,7 @@ class Profil extends BaseController
             'alamat' => $alamat,
         ];
 
-        $model->update($nim, $data);
+        $model->update($nama, $data);
         return redirect()->to(base_url('profil'));
     }
 }

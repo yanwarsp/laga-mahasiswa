@@ -3,12 +3,15 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\LombaModel;
 
 class Lomba extends BaseController
 {
     public function index()
     {
-        echo view("lomba/view_lomba");
+        $model = new LombaModel();
+        $data['lomba'] = $model->getLomba();
+        echo view("lomba/view_lomba", $data);
     }
 
     public function ukm()

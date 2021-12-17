@@ -113,63 +113,22 @@
     <div class="row bghijau bgradius">
       <h4 class="textputih mt-4 text-center">Semua Kegiatan Magang</h4>
       <div class="row mt-3 d-flex justify-content-center align-items-center mb-3">
-        <div class="col-sm-6 mt-3">
-          <div class="card w-80">
-            <div class="card-body">
-              <a href="#" class="text-muted textputih">
-                <h5 class="card-title">FORKA FEST : Lomba Pemrograman Bagi Seluruh Mahasiswa di Indonesia</h5>
-              </a>
-              <p class="card-text"> Festival tahunan Kegiatan Mahasiswa yang dilaksanakan
-                <br> Oleh Himpunan Mahasiswa Informatika UPJ
-              </p>
-              <p class="card-text"> Total Hadiah 10 Juta Rupiah * 50 JSDP Bagi Pemenang</p>
+        <?php foreach ($magang as $row) : ?>
+          <div class="col-sm-6 mt-3">
+            <div class="card w-80">
+              <div class="card-body">
+                <a href="#" class="text-muted textputih">
+                  <h5 class="card-title"><?= $row['nama']; ?></h5>
+                </a>
+                <p class="card-text"> <?= $row['deskripsi']; ?>
+                  <br> Oleh <?= $row['penyelenggara']; ?>
+                </p>
+                <p class="card-text"> <?= $row['poin']; ?> JSDP</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-6 mt-3">
-          <div class="card w-80">
-            <div class="card-body">
-              <a href="#" class="text-muted textputih">
-                <h5 class="card-title">Internal Badminton Champions : Lomba Tim Ganda
-                  Campuran, Ganda Putra, dan Tunggal Putra</h5>
-              </a>
-              <p class="card-text">Lomba tahunan UKM Bulutangkis UPJ
-                <br> Akan dilaksanakan pada tanggal 2-4 November 2021 di GOR PB Jaya Raya Bintaro
-              </p>
-              <p class="card-text">Total Hadiah 10 Juta Rupiah * 30 JSDP Bagi Pemenangg
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 mt-3">
-          <div class="card w-80">
-            <div class="card-body">
-              <a href="#" class="text-muted textputih">
-                <h5 class="card-title">FORKA FEST : Lomba Pemrograman Bagi Seluruh Mahasiswa di Indonesia</h5>
-              </a>
-              <p class="card-text"> Festival tahunan Kegiatan Mahasiswa yang dilaksanakan
-                <br> Oleh Himpunan Mahasiswa Informatika UPJ
-              </p>
-              <p class="card-text"> Total Hadiah 10 Juta Rupiah * 50 JSDP Bagi Pemenang</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 mt-3">
-          <div class="card w-80">
-            <div class="card-body">
-              <a href="#" class="text-muted textputih">
-                <h5 class="card-title">Internal Badminton Champions : Lomba Tim Ganda
-                  Campuran, Ganda Putra, dan Tunggal Putra</h5>
-              </a>
-              <p class="card-text">Lomba tahunan UKM Bulutangkis UPJ
-                <br> Akan dilaksanakan pada tanggal 2-4 November 2021 di GOR PB Jaya Raya Bintaro
-              </p>
-              <p class="card-text">Total Hadiah 10 Juta Rupiah * 30 JSDP Bagi Pemenangg
-              </p>
-            </div>
-          </div>
-        </div>
-        <br>
+          <br>
+        <?php endforeach; ?>
       </div>
       <br>
     </div>

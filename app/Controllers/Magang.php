@@ -3,12 +3,15 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\MagangModel;
 
 class Magang extends BaseController
 {
     public function index()
     {
-        echo view("magang/view_magang");
+        $model = new MagangModel();
+        $data['magang'] = $model->getMagang();
+        echo view("magang/view_magang", $data);
     }
 
     public function keuangan()
