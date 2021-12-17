@@ -29,6 +29,21 @@ class Users extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 60,
             ],
+            'ttl' => [
+                'type' => 'VARCHAR',
+                'constraint' => 60,
+            ],
+            'kewarganegaraan' => [
+                'type' => 'VARCHAR',
+                'constraint' => 30,
+            ],
+            'agama' => [
+                'type' => 'VARCHAR',
+                'constraint' => 30,
+            ],
+            'alamat' => [
+                'type' => 'TEXT',
+            ],
             'foto' => [
                 'type' => 'VARCHAR',
                 'constraint' => 20,

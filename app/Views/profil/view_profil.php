@@ -54,11 +54,11 @@
     <!-- body -->
     <div class="jumbotron">
         <br>
-        <h1 class="text-center">Your Profile</h1>
+        <h1 class="text-center mb-3">Your Profile</h1>
     </div>
     <br>
 
-    <div class="container emp-profile">
+    <div class="container emp-profile mb-5">
         <form method="post">
             <div class="row">
                 <div class="col-md-4">
@@ -69,111 +69,81 @@
                         <br>
                         <h3>Melinda Rahayu </h3> <br>
                         <a class="btn rounded-pill button1" href="<?= base_url(); ?>/login/logout">LOG OUT</a>
-                        <a class="btn rounded-pill btn-warning" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/login/logout">EDIT PROFIL</a>
+                        <a class="btn rounded-pill btn-warning" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/profil/edit">EDIT PROFIL</a>
                     </div>
                 </div>
 
                 <div class="col-md-6">
-                        <div class="profile-head">                                   
-                            <h6>
-                                Mahasiswa Universitas Pembangunan Jaya
-                            </h6>
-                            <br>
-                            <div class="tab-content profile-tab" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>E-mail</label>
+                    <div class="profile-head">
+                        <h6>
+                            Mahasiswa Universitas Pembangunan Jaya
+                        </h6>
+                        <br>
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>E-mail</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>MelindaRahayu@student.upj.ac.id</p>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <p>MelindaRahayu@student.upj.ac.id</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>NIM</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>2019071053</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>NIM</label>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Jurusan</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Informatika</p>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <p>2019071053</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Tanggal Lahir</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>11 November 2001</p>
+                                    </div>
+                                </div>                              
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Kewarganegaraan</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Indonesia</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Jurusan</label>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Agama</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Tidak ada</p>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <p>Informatika</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Tanggal Lahir</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>11 November 2001</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Tempat Lahir</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Jakarta</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Kewarganegaraan</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Indonesia</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Agama</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Tidak ada</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Alamat</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Gold House Jakarta</p>
-                                </div>
-                                <div class="col-md-6">
-                                    
-                                </div>                                
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Alamat</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Gold House Jakarta</p>
-                                </div>
-                                <div class="col-md-6">
-                                </div>                                
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Alamat</label>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>Gold House Jakarta</p>
-                                </div>
-                                <div class="col-md-6">
-                                    
-                                </div>                                
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Alamat</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Gold House Jakarta</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                    </div>
+                                </div>                                                              
                             </div>
                         </div>
                     </div>
-                        </div>
-                    </div>                            
-            </div>                     
+                </div>
+            </div>
         </form>
     </div>
 
