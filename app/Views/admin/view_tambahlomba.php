@@ -85,67 +85,69 @@
             <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
               <div class="card h-100">
                 <div class="card-body">
-                  <div class="row gutters">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <h2 class="mt-3 mb-3" style="color: #111111;">Tambah Perlombaan</h2> <br>
+                  <form action="<?= base_url(); ?>/admin/submitlomba" method="POST">
+                    <div class="row gutters">
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h2 class="mt-3 mb-3" style="color: #111111;">Tambah Perlombaan</h2> <br>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="fullNama">Nama Lomba</label>
+                          <input type="text" class="form-control" id="namaLomba" name="nama" placeholder="Nama Perlombaan">
+                          <br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Penyelenggara</label>
+                          <input type="text" class="form-control" id="penyelenggara" name="penyelenggara" placeholder="Penyelenggara"> <br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="jurusan">Kelompok Lomba</label>
+                          <input type="text" class="form-control" id="kelompokLomba" name="kelompok" placeholder="kelompok Lomba"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="ptemptTanggalLahir">Hadiah Lomba</label>
+                          <input type="text" class="form-control" id="hadiahLomba" name="hadiah" placeholder="Hadiah Lomba"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Reward Point JSDP</label>
+                          <input type="text" class="form-control" id="poinJsdp" name="poin" placeholder="Point"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Kriteria</label>
+                          <input type="text" class="form-control" id="kriteria" name="kriteria" placeholder="kriteria"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Deskripsi</label>
+                          <input type="text" class="form-control" id="deskripsi" name="deskripsi" placeholder="deskripsi"><br>
+                        </div>
+                      </div>
                     </div>
 
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="fullNama">Nama Lomba</label>
-                        <input type="text" class="form-control" id="namaLomba" placeholder="Nama Perlombaan">
-                        <br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Penyelenggara</label>
-                        <input type="text" class="form-control" id="penyelenggara" placeholder="Penyelenggara"> <br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="jurusan">Kelompok Lomba</label>
-                        <input type="text" class="form-control" id="kelompokLomba" placeholder="kelompok Lomba"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="ptemptTanggalLahir">Hadiah Lomba</label>
-                        <input type="text" class="form-control" id="hadiahLomba" placeholder="Hadiah Lomba"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Reward Point JSDP</label>
-                        <input type="text" class="form-control" id="poinJsdp" placeholder="Point"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Kriteria</label>
-                        <input type="text" class="form-control" id="kriteria" placeholder="kriteria"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Deskripsi</label>
-                        <input type="text" class="form-control" id="deskripsi" placeholder="deskripsi"><br>
-                      </div>
-                    </div>
-                  </div>
 
-                  <div class="row gutters">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <div class="text-right">
-                        <br>
-                        <br>
-                        <a class="btn btn-danger mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/admin/managelomba">Kembali</a>
-                        <button class="btn btn-primary mb-2" type="submit">Simpan</button>
+                    <div class="row gutters">
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="text-right">
+                          <br>
+                          <br>
+                          <a class="btn btn-danger mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/admin/managelomba">Kembali</a>
+                          <button class="btn btn-primary mb-2" type="submit">Simpan</button>
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
+                </form>
               </div>
             </div>
           </div>

@@ -71,66 +71,80 @@
 			<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
 				<div class="card h-100">
 					<div class="card-body">
-						<div class="row gutters">
-							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<h2 class="mt-3 mb-3" style="color: #26b2ab;">Edit Profile</h2> <br>
+						<form action="<?= base_url(); ?>/profil/submitedit" method="POST">
+							<div class="row gutters">
+								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<h2 class="mt-3 mb-3" style="color: #26b2ab;">Edit Profile</h2> <br>
+								</div>
+
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="fullNama">Nama</label>
+										<input type="text" class="form-control" id="namaLengkap" name="nama" placeholder="Nama Lengkap">
+										<br>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="website">E-mail</label>
+										<input type="text" class="form-control" id="email" name="email" placeholder="E-mail"> <br>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="prodi">Prodi</label>
+										<select class="form-control" name="prodi" id="prodi">
+											<option selected>Pilih Prodi...</option>
+											<option value="Akuntansi">Akuntansi</option>
+											<option value="Manajemen">Manajemen</option>
+											<option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+											<option value="Psikologi">Psikologi</option>
+											<option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+											<option value="Desain Produk">Desain Produk</option>
+											<option value="Informatika">Informatika</option>
+											<option value="Sistem Informasi">Sistem Informasi</option>
+											<option value="Teknik Sipil">Teknik Sipil</option>
+											<option value="Arsitektur">Arsitektur</option>
+										</select>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="ptemptTanggalLahir">Tempat Tanggal Lahir</label>
+										<input type="text" class="form-control" id="ttgl" name="ttl" placeholder="Tempat Tanggal Lahir"><br>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="website">Kewarganegaraan</label>
+										<input type="text" class="form-control" id="kewarganegaraan" name="kewarganegaraan" placeholder="Kewarganegaraan"><br>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="website">Agama</label>
+										<input type="text" class="form-control" id="agama" name="agama" placeholder="Agama"><br>
+									</div>
+								</div>
+								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+									<div class="form-group">
+										<label for="website">Alamat</label>
+										<input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat"><br>
+									</div>
+								</div>
 							</div>
 
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="fullNama">Nama</label>
-									<input type="text" class="form-control" id="namaLengkap" placeholder="Nama Lengkap">
-									<br>
+							<div class="row gutters">
+								<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+									<div class="text-right">
+										<br>
+										<br>
+										<a class="btn rounded-pill btn-warning mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/profil">Kembali</a>
+										<button class="btn rounded-pill button1 mb-2" type="submit">Simpan</button>
+									</div>
 								</div>
 							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="website">E-mail</label>
-									<input type="text" class="form-control" id="email" placeholder="E-mail"> <br>
-								</div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="jurusan">Jurusan</label>
-									<input type="text" class="form-control" id="jurusan" placeholder="Jurusan"><br>
-								</div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="ptemptTanggalLahir">Tempat Tanggal Lahir</label>
-									<input type="text" class="form-control" id="ttgl" placeholder="Tempat Tanggal Lahir"><br>
-								</div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="website">Kewarganegaraan</label>
-									<input type="text" class="form-control" id="kewarganegaraan" placeholder="Kewarganegaraan"><br>
-								</div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="website">Agama</label>
-									<input type="text" class="form-control" id="agama" placeholder="Agama"><br>
-								</div>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="website">Alamat</label>
-									<input type="text" class="form-control" id="alamat" placeholder="Alamat"><br>
-								</div>
-							</div>
-						</div>
-
-						<div class="row gutters">
-							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<div class="text-right">
-									<br>
-									<br>
-									<a class="btn rounded-pill btn-warning mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/profil">Kembali</a>
-									<button class="btn rounded-pill button1 mb-2" type="submit">Simpan</button>
-								</div>
-							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>

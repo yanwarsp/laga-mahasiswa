@@ -14,7 +14,7 @@ class LombaModel extends Model
     protected $returnType           = 'array';
     protected $useSoftDeletes       = false;
     protected $protectFields        = true;
-    protected $allowedFields        = ['id', 'nama', 'penyelenggara', 'kelompok', 'hadiah', 'poin', 'kriteria', 'deskripsi'];
+    protected $allowedFields        = ['nama', 'penyelenggara', 'kelompok', 'hadiah', 'poin', 'kriteria', 'deskripsi'];
 
     // Dates
     protected $useTimestamps        = false;

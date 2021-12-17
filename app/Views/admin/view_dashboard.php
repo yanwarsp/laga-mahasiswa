@@ -10,6 +10,7 @@
   <title>LAGA Mahasiswa - Dashboard Admin</title>
 
   <link rel="stylesheet" href="/css/dashboard.css">
+  <link rel="stylesheet" href="/css/styles.css">
 
 
   <!-- Bootstrap core CSS -->
@@ -84,14 +85,13 @@
 
         <h2 class="mt-4">Welcome, Administrator!</h2>
         <br>
-        <a style="color: white; text-decoration: none;" class="btn rounded btn-info" href="<?= base_url(); ?>/">Lihat Website</a>
         <br>
 
 
         <br>
         <div class="row">
           <div class="col">
-            <a href="<?= base_url(); ?>/magang/keuangan" class="text-muted texthitam">
+            <a href="<?= base_url(); ?>/magang/keuangan" class="texthitam" style="text-decoration: none;">
               <div class="card animmenu" style="width: 18rem;">
                 <img class="card-img-top" src="/img/users.svg" alt="Card image cap" height="120px">
                 <div class="card-body">
@@ -101,7 +101,7 @@
             </a>
           </div>
           <div class="col mx-1">
-            <a href="<?= base_url(); ?>/magang/ict" class="text-muted texthitam">
+            <a href="<?= base_url(); ?>/magang/ict" class="texthitam" style="text-decoration: none;">
               <div class="card animmenu" style="width: 18rem;">
                 <img class="card-img-top" src="/img/archive.svg" alt="Card image cap" height="120px">
                 <div class="card-body">
@@ -111,7 +111,7 @@
             </a>
           </div>
           <div class="col">
-            <a href="<?= base_url(); ?>/magang/marketing" class="text-muted texthitam">
+            <a href="<?= base_url(); ?>/magang/marketing" class="texthitam" style="text-decoration: none;">
               <div class="card animmenu" style="width: 18rem;">
                 <img class="card-img-top" src="/img/award.svg" alt="Card image cap" height="120px">
                 <div class="card-body" style="text-decoration: none;">
@@ -121,6 +121,8 @@
             </a>
           </div>
         </div>
+        <br><br>
+        <a style="color: white; text-decoration: none;" class="btn rounded btn-info" href="<?= base_url(); ?>/">Lihat Website</a>
     </div>
     <br>
   </div>

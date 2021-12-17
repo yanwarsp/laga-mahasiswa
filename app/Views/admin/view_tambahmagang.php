@@ -85,62 +85,62 @@
             <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
               <div class="card h-100">
                 <div class="card-body">
-                  <div class="row gutters">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <h2 class="mt-3 mb-3" style="color: #111111;">Tambah Kegiatan Magang</h2> <br>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="fullNama">Nama Magang</label>
-                        <input type="text" class="form-control" id="namaMagang" placeholder="Nama Magang">
-                        <br>
+                  <form action="<?= base_url(); ?>/admin/submitmagang" method="POST">
+                    <div class="row gutters">
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h2 class="mt-3 mb-3" style="color: #111111;">Tambah Kegiatan Magang</h2> <br>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="fullNama">Nama Magang</label>
+                          <input type="text" class="form-control" id="namaMagang" name="nama" placeholder="Nama Magang">
+                          <br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Penyelenggara Magang</label>
+                          <input type="text" class="form-control" id="penyelenggaraMagang" name="penyelenggara" placeholder="Penyelenggara"> <br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="jurusan">Sektor Magang</label>
+                          <input type="text" class="form-control" id="sektorMagang" name="sektor" placeholder="Sektor Magang"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="ptemptTanggalLahir">Reward Point JSDP</label>
+                          <input type="text" class="form-control" id="poinJsdpMagang" name="poin" placeholder="Poin JSDP"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Kriteria</label>
+                          <input type="text" class="form-control" id="kriteriaMagang" name="kriteria" placeholder="Kriteria Magang"><br>
+                        </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="form-group">
+                          <label for="website">Deskripsi</label>
+                          <input type="text" class="form-control" id="deskripsimagang" name="deskripsi" placeholder="Deskripsi Magang"><br>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Penyelenggara Magang</label>
-                        <input type="text" class="form-control" id="penyelenggaraMagang" placeholder="Penyelenggara"> <br>
+                    <div class="row gutters">
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="text-right">
+                          <br>
+                          <br>
+                          <a class="btn btn-danger mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/admin/managemagang">Kembali</a>
+                          <button class="btn btn-primary mb-2" type="submit">Simpan</button>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="jurusan">Sektor Magang</label>
-                        <input type="text" class="form-control" id="sektorMagang" placeholder="Sektor Magang"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="ptemptTanggalLahir">Reward Point JSDP</label>
-                        <input type="text" class="form-control" id="poinJsdpMagang" placeholder="Poin JSDP"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Kriteria</label>
-                        <input type="text" class="form-control" id="kriteriaMagang" placeholder="Kriteria Magang"><br>
-                      </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                      <div class="form-group">
-                        <label for="website">Deskripsi</label>
-                        <input type="text" class="form-control" id="deskripsimagang" placeholder="Deskripsi Magang"><br>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row gutters">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                      <div class="text-right">
-                        <br>
-                        <br>
-                        <a class="btn btn-danger mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/admin/managemagang">Kembali</a>
-                        <button class="btn btn-primary mb-2" type="submit">Simpan</button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
+              </form>
             </div>
           </div>
         </div>

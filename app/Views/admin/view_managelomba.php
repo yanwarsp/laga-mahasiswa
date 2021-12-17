@@ -103,8 +103,8 @@
                   <td><?= $row['nama']; ?></td>
                   <td><?= $row['kelompok']; ?></td>
                   <td><?= $row['penyelenggara']; ?></td>
-                  <td><a href="" class="btn btn-info">Detail</a>
-                    <a href="" class="btn btn-danger">Hapus</a>
+                  <td>
+                    <a href="<?= base_url('/admin/deletelomba/' . $row['id']) ?>" class="btn btn-danger">Hapus</a>
                   </td>
                 </tr>
               <?php endforeach; ?>

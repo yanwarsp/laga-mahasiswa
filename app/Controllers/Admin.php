@@ -107,4 +107,37 @@ class Admin extends BaseController
             return redirect()->to(base_url('admin/managelomba'));
         }
     }
+
+    public function submitmagang()
+    {
+        $model = new MagangModel();
+        $data = [
+            'nama' => $this->request->getVar('nama'),
+            'penyelenggara' => $this->request->getVar('penyelenggara'),
+            'sektor' => $this->request->getVar('sektor'),
+            'poin' => $this->request->getVar('poin'),
+            'kriteria' => $this->request->getVar('kriteria'),
+            'deskripsi' => $this->request->getVar('deskripsi'),
+        ];
+
+        $model->insert($data);
+        return redirect()->to(base_url('admin/managemagang'));
+    }
+
+    public function submitlomba()
+    {
+        $model = new LombaModel();
+        $data = [
+            'nama' => $this->request->getVar('nama'),
+            'penyelenggara' => $this->request->getVar('penyelenggara'),
+            'kelompok' => $this->request->getVar('kelompok'),
+            'hadiah' => $this->request->getVar('hadiah'),
+            'poin' => $this->request->getVar('poin'),
+            'kriteria' => $this->request->getVar('kriteria'),
+            'deskripsi' => $this->request->getVar('deskripsi'),
+        ];
+
+        $model->insert($data);
+        return redirect()->to(base_url('admin/managelomba'));
+    }
 }
