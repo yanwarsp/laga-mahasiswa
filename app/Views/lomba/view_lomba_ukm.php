@@ -24,19 +24,16 @@
       </a>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Beranda</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/">Beranda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage-active mx-5" href="#">Magang</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/magang">Magang</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Lomba</a>
+          <a class="nav-link menupage-active mx-5" href="<?= base_url(); ?>/lomba">Lomba</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Event</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menupage mx-5" href="#">Tentang Kami</a>
+          <a class="nav-link menupage mx-5" href="<?= base_url(); ?>/about">Tentang Kami</a>
         </li>
         <?php if (!session()->get('logged_in')) : ?>
           <li class="nav-item">
@@ -95,7 +92,7 @@
             Oleh Himpunan Mahasiswa Informatika UPJ</p>
           <p class="card-text">Total Hadiah 10 Juta Rupiah * 50 JSDP Bagi Pemenang</p>
         </div>
-      </div>      
+      </div>
     </div>
 
     <div class="col-sm-8" style="background-color:#FFFFFF">
@@ -115,11 +112,11 @@
           &nbsp; Copyright &copy; 2021
         </div>
         <div class="text-muted">
-          <a href="#" class="text-muted textputih">Yanwar</a>
+          <a href="https://github.com/yanwarsp" class="text-muted textputih">Yanwar</a>
           &middot;
-          <a href="#" class="text-muted textputih">Zahra</a>
+          <a href="https://github.com/Zahraauliafauzia" class="text-muted textputih">Zahra</a>
           &middot;
-          <a href="#" class="text-muted textputih">Raflie</a>
+          <a href="https://github.com/Raflie26" class="text-muted textputih">Raflie</a>
         </div>
       </div>
     </div>

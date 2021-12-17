@@ -41,7 +41,7 @@
     </button>
     <div class="navbar-nav">
       <div class="nav-item text-nowrap">
-        <a class="nav-link px-3" href="#">Sign out</a>
+        <a class="nav-link px-3" href="<?= base_url(); ?>/admin/logout">Sign out</a>
       </div>
     </div>
   </header>

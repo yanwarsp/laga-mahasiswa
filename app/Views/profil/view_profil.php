@@ -54,6 +54,25 @@
   <!-- body -->
   <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login/logout">LOG OUT</a>
 
+  <div class="jumbotron">
+    <h1 class="text-center">Your Profile</h1>
+  </div>
+  <br> <br>
+  <div class="row">
+    <div class="col-sm-4">
+     <img src="/img/logo2.png" alt="LAGA Mahasiswa" width="9%">
+
+    </div>
+
+    <div class="col-sm-8" style="background-color:#FFFFFF">
+      <h3><br>Hallo Test saja ya</h3>
+      <br>
+      <p>aofuy dfuafahefjkhe fksh fhjsdfg jsdhfg jsdhf gjsdkhfgsjdfhgs djg sdjf</p>
+    </div>
+    <br>
+  </div>
+
+
 
   <!-- footer -->
   <footer class="py-2">
@@ -64,11 +83,11 @@
           &nbsp; Copyright &copy; 2021
         </div>
         <div class="text-muted">
-          <a href="#" class="text-muted textputih">Yanwar</a>
+          <a href="https://github.com/yanwarsp" class="text-muted textputih">Yanwar</a>
           &middot;
-          <a href="#" class="text-muted textputih">Zahra</a>
+          <a href="https://github.com/Zahraauliafauzia" class="text-muted textputih">Zahra</a>
           &middot;
-          <a href="#" class="text-muted textputih">Raflie</a>
+          <a href="https://github.com/Raflie26" class="text-muted textputih">Raflie</a>
         </div>
       </div>
     </div>

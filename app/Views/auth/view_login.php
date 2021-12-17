@@ -50,7 +50,7 @@
             <form action="<?= base_url(); ?>/login/submitlogin" method="POST">
               <div class="form-floating mb-4">
                 <input class="form-control" id="nim" type="text" name="nim" placeholder="NIM" />
-                <label for="nim">NIM</label>
+                <label for="nim">Username</label>
               </div>
               <div class="form-floating mb-3">
                 <input class="form-control" id="password" type="password" name="password" placeholder="Password" />
@@ -81,11 +81,11 @@
           &nbsp; Copyright &copy; 2021
         </div>
         <div class="text-muted">
-          <a href="#" class="text-muted textputih">Yanwar</a>
+          <a href="https://github.com/yanwarsp" class="text-muted textputih">Yanwar</a>
           &middot;
-          <a href="#" class="text-muted textputih">Zahra</a>
+          <a href="https://github.com/Zahraauliafauzia" class="text-muted textputih">Zahra</a>
           &middot;
-          <a href="#" class="text-muted textputih">Raflie</a>
+          <a href="https://github.com/Raflie26" class="text-muted textputih">Raflie</a>
         </div>
       </div>
     </div>

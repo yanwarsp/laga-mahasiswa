@@ -18,22 +18,38 @@ class Admin extends BaseController
 
     public function dashboard()
     {
-        echo view("admin/view_dashboard");
+        if (session('nama') == 'Administrator') {
+            echo view("admin/view_dashboard");
+        } else {
+            return redirect()->to(base_url('/'));
+        }
     }
 
     public function daftaruser()
     {
-        echo view("admin/view_daftaruser");
+        if (session('nama') == 'Administrator') {
+            echo view("admin/view_daftaruser");
+        } else {
+            return redirect()->to(base_url('/'));
+        }
     }
 
     public function managemagang()
     {
-        echo view("admin/view_managemagang");
+        if (session('nama') == 'Administrator') {
+            echo view("admin/view_managemagang");
+        } else {
+            return redirect()->to(base_url('/'));
+        }
     }
 
     public function managelomba()
     {
-        echo view("admin/view_managelomba");
+        if (session('nama') == 'Administrator') {
+            echo view("admin/view_managelomba");
+        } else {
+            return redirect()->to(base_url('/'));
+        }
     }
 
     public function logout()

@@ -12,6 +12,18 @@ body {
  * Sidebar
  */
 
+.button1 {
+  background-color: #26b2ab;
+  color: white;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background-color: #158d87;
+  color: white;
+  text-decoration: none;
+}
+
 .bgnavadmin {
   background-color: black;
 }

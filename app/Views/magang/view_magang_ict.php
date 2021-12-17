@@ -107,11 +107,11 @@
           &nbsp; Copyright &copy; 2021
         </div>
         <div class="text-muted">
-          <a href="#" class="text-muted textputih">Yanwar</a>
+          <a href="https://github.com/yanwarsp" class="text-muted textputih">Yanwar</a>
           &middot;
-          <a href="#" class="text-muted textputih">Zahra</a>
+          <a href="https://github.com/Zahraauliafauzia" class="text-muted textputih">Zahra</a>
           &middot;
-          <a href="#" class="text-muted textputih">Raflie</a>
+          <a href="https://github.com/Raflie26" class="text-muted textputih">Raflie</a>
         </div>
       </div>
     </div>
