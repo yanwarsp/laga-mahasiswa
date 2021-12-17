@@ -9,7 +9,7 @@ class Admin extends BaseController
 
     public function index()
     {
-        if (session('nim') == 'admin') {
+        if (session('nama') == 'Administrator') {
             echo view("admin/view_dashboard");
         } else {
             return redirect()->to(base_url('/'));

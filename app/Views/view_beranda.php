@@ -60,7 +60,6 @@
       <br>
       <br>
       LAGA Mahasiswa adalah salah satu cara terbaik kamu untuk mengeksplor diri. Dengan mengikuti kegiatan kemahasiswaan yang ditawarkan.
-      <?= $_SESSION["nim"]; ?>
     </p>
     <?php if (!session()->get('logged_in')) : ?>
       <a class="btn rounded button1" href="<?= base_url(); ?>/register">Register Sekarang</a>
