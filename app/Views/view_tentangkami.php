@@ -88,42 +88,40 @@
         kesulitan untuk mencari mahasiswa untuk bergabung pada
         kegiatan mereka karena menyebarkan informasi masih secara
         konvensional.
-      </p> <br>       
+      </p> <br>
 
       <div class="container">
         <div class="row">
           <div class="col-sm">
-             <img src="img/profil_default.png" alt="" height="250px" />   
+            <img src="img/yanwar.jpg" alt="" height="250px" />
           </div>
           <div class="col-sm">
-             <img src="img/profil_default.png" alt="" height="250px" />   
+            <img src="img/rara.jpg" alt="" height="250px" />
           </div>
           <div class="col-sm">
-              <img src="img/profil_default.png" alt="" height="250px" />   
+            <img src="img/pompom.jpg" alt="" height="250px" />
           </div>
         </div>
-      </div>  
-      
-      <div class="col-sm-6">
-        <p>
-                Saat ini kreativitas menjadi kata kunci penting untuk memastikan 
-          sumber daya manusia yang berkualiatas. Para Mahasiswa saat ini
-          harus disiapkan menjadi pembelajar sejati yang terampil, ulet, dan
-          mampu beradaptasi dengan lingkungannya. Untuk itu LAGA
-          Mahasiswa diharapkan sekali dapat membantu teman-teman 
-          mahasiswa Universitas Pembangunan Jaya dalam memaksimalkan
-          Kegiatan kemahasiswaan. 
+      </div> <br>
+      <h6 class="text-center">Menurut Pendiri LAGA Mahasiswa</h6>
+      <p>
+        Saat ini kreativitas menjadi kata kunci penting untuk memastikan
+        sumber daya manusia yang berkualiatas. Para Mahasiswa saat ini
+        harus disiapkan menjadi pembelajar sejati yang terampil, ulet, dan
+        mampu beradaptasi dengan lingkungannya. Untuk itu LAGA
+        Mahasiswa diharapkan sekali dapat membantu teman-teman
+        mahasiswa Universitas Pembangunan Jaya dalam memaksimalkan
+        Kegiatan kemahasiswaan.
 
-          Semua Kegiatan yang ada di LAGA Mahasiswa tentunya bias 
-          diikuti oleh seluruh Mahasiswa aktif Universitas Pembangunan Jaya.
-          Untuk itu LAGA Mahasiswa meluncurkan banyak sekali penawaran
-          dari Kegiatan kemahasiswaan di UPJ sendiri untuk menambah
-          pengalaman tekan-teman semua. Ayo kita tumbuh dan berkem-
-          bang Bersama menjadi manusia Jaya.
-        
-      </div>
-      
-    </div>    
+        Semua Kegiatan yang ada di LAGA Mahasiswa tentunya bias
+        diikuti oleh seluruh Mahasiswa aktif Universitas Pembangunan Jaya.
+        Untuk itu LAGA Mahasiswa meluncurkan banyak sekali penawaran
+        dari Kegiatan kemahasiswaan di UPJ sendiri untuk menambah
+        pengalaman tekan-teman semua. Ayo kita tumbuh dan berkem-
+        bang Bersama menjadi manusia Jaya.
+      </p>
+      <br>
+    </div>
     <br>
   </div>
 

@@ -90,7 +90,7 @@
                 <th scope="col">Nama Lengkap</th>
                 <th scope="col">NIM</th>
                 <th scope="col">Prodi</th>
-                <th scope="col">Manage</th>
+                <th scope="col">Aksi</th>
               </tr>
             </thead>
             <tbody>
@@ -101,7 +101,9 @@
                   <td><?= $row['nama']; ?></td>
                   <td><?= $row['nim']; ?></td>
                   <td><?= $row['prodi']; ?></td>
-                  <td>text</td>
+                  <td>
+                    <a href="<?= base_url('/admin/deleteuser/' . $row['nim']) ?>" class="btn btn-danger">Hapus</a>
+                  </td>
                 </tr>
               <?php endforeach; ?>
             </tbody>

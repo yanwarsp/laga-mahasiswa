@@ -84,13 +84,52 @@
 
         <h2 class="mt-4">Welcome, Administrator!</h2>
         <br>
-        <a style="background-color: #26b2ab; color: white; text-decoration: none;" class="btn rounded" href="<?= base_url(); ?>/">Lihat Website</a>
-      </main>
+        <a style="color: white; text-decoration: none;" class="btn rounded btn-info" href="<?= base_url(); ?>/">Lihat Website</a>
+        <br>
+
+
+        <br>
+        <div class="row">
+          <div class="col">
+            <a href="<?= base_url(); ?>/magang/keuangan" class="text-muted texthitam">
+              <div class="card animmenu" style="width: 18rem;">
+                <img class="card-img-top" src="/img/users.svg" alt="Card image cap" height="120px">
+                <div class="card-body">
+                  <p class="card-text text-center">Daftar User</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col mx-1">
+            <a href="<?= base_url(); ?>/magang/ict" class="text-muted texthitam">
+              <div class="card animmenu" style="width: 18rem;">
+                <img class="card-img-top" src="/img/archive.svg" alt="Card image cap" height="120px">
+                <div class="card-body">
+                  <p class="card-text text-center">Manage Magang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="<?= base_url(); ?>/magang/marketing" class="text-muted texthitam">
+              <div class="card animmenu" style="width: 18rem;">
+                <img class="card-img-top" src="/img/award.svg" alt="Card image cap" height="120px">
+                <div class="card-body" style="text-decoration: none;">
+                  <p class=" card-text text-center">Manage Lomba</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
     </div>
+    <br>
+  </div>
+  </main>
+  </div>
   </div>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
   <script src="/js/dashboard.js"></script>

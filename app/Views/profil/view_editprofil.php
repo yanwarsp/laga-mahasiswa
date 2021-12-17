@@ -137,8 +137,6 @@
 		</div>
 	</div>
 
-
-
 	<!-- footer -->
 	<footer class="py-2">
 		<div class="container-fluid px-4">

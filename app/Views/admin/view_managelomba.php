@@ -82,32 +82,32 @@
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 
         <h2 class="mt-4 mb-3">Daftar Lomba</h2>
+        <br>
+        <a href="<?= base_url(); ?>/admin/tambahlomba" class="btn btn-info mb-4 text-light">Tambah Lomba</a>
         <div class="table-responsive">
           <table class="table table-striped table-sm">
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Nama Lengkap</th>
-                <th scope="col">NIM</th>
-                <th scope="col">Prodi</th>
-                <th scope="col">Manage</th>
+                <th scope="col">Nama Lomba</th>
+                <th scope="col">Kelompok</th>
+                <th scope="col">Penyelenggara</th>
+                <th scope="col"></th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>random</td>
-                <td>data</td>
-                <td>placeholder</td>
-                <td>text</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>placeholder</td>
-                <td>irrelevant</td>
-                <td>visual</td>
-                <td>layout</td>
-              </tr>
+              <?php $i = 1; ?>
+              <?php foreach ($lomba as $row) : ?>
+                <tr>
+                  <td><?= $i++; ?></td>
+                  <td><?= $row['nama']; ?></td>
+                  <td><?= $row['kelompok']; ?></td>
+                  <td><?= $row['penyelenggara']; ?></td>
+                  <td><a href="" class="btn btn-info">Detail</a>
+                    <a href="" class="btn btn-danger">Hapus</a>
+                  </td>
+                </tr>
+              <?php endforeach; ?>
             </tbody>
           </table>
         </div>

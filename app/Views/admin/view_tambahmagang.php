@@ -80,36 +80,69 @@
       </nav>
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <div class="container mb-5 mt-5">
+          <div class="row gutters">
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="row gutters">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                      <h2 class="mt-3 mb-3" style="color: #111111;">Tambah Kegiatan Magang</h2> <br>
+                    </div>
 
-        <h2 class="mt-4 mb-3">Daftar Magang</h2>
-        <br>
-        <a href="<?= base_url(); ?>/admin/tambahmagang" class="btn btn-info mb-4 text-light">Tambah Magang</a>
-        <div class="table-responsive">
-          <table class="table table-striped table-sm">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Nama Magang</th>
-                <th scope="col">Sektor</th>
-                <th scope="col">Penyelenggara</th>
-                <th scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <?php $i = 1; ?>
-              <?php foreach ($magang as $row) : ?>
-                <tr>
-                  <td><?= $i++; ?></td>
-                  <td><?= $row['nama']; ?></td>
-                  <td><?= $row['sektor']; ?></td>
-                  <td><?= $row['penyelenggara']; ?></td>
-                  <td><a href="" class="btn btn-info">Detail</a>
-                    <a href="" class="btn btn-danger">Hapus</a>
-                  </td>
-                </tr>
-              <?php endforeach; ?>
-            </tbody>
-          </table>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label for="fullNama">Nama Magang</label>
+                        <input type="text" class="form-control" id="namaMagang" placeholder="Nama Magang">
+                        <br>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label for="website">Penyelenggara Magang</label>
+                        <input type="text" class="form-control" id="penyelenggaraMagang" placeholder="Penyelenggara"> <br>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label for="jurusan">Sektor Magang</label>
+                        <input type="text" class="form-control" id="sektorMagang" placeholder="Sektor Magang"><br>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label for="ptemptTanggalLahir">Reward Point JSDP</label>
+                        <input type="text" class="form-control" id="poinJsdpMagang" placeholder="Poin JSDP"><br>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label for="website">Kriteria</label>
+                        <input type="text" class="form-control" id="kriteriaMagang" placeholder="Kriteria Magang"><br>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label for="website">Deskripsi</label>
+                        <input type="text" class="form-control" id="deskripsimagang" placeholder="Deskripsi Magang"><br>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row gutters">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                      <div class="text-right">
+                        <br>
+                        <br>
+                        <a class="btn btn-danger mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/admin/managemagang">Kembali</a>
+                        <button class="btn btn-primary mb-2" type="submit">Simpan</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>

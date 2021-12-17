@@ -19,6 +19,12 @@ class Admin extends BaseController
         }
     }
 
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to(base_url('home'));
+    }
+
     public function dashboard()
     {
         if (session('nama') == 'Administrator') {
@@ -64,9 +70,41 @@ class Admin extends BaseController
         }
     }
 
-    public function logout()
+    public function tambahmagang()
     {
-        session()->destroy();
-        return redirect()->to(base_url('home'));
+        echo view('admin/view_tambahmagang');
+    }
+
+    public function tambahlomba()
+    {
+        echo view('admin/view_tambahlomba');
+    }
+
+    public function deleteuser($nim = null)
+    {
+        if ($nim != null) {
+            $model = new UsersModel();
+            $data['users'] = $model->where('nim', $nim)->delete();
+
+            return redirect()->to(base_url('admin/daftaruser'));
+        }
+    }
+
+    public function deletemagang($id = null)
+    {
+        if ($id != null) {
+            $model = new MagangModel();
+            $data['orders'] = $model->where('id', $id)->delete();
+            return redirect()->to(base_url('admin/managemagang'));
+        }
+    }
+
+    public function deletelomba($id = null)
+    {
+        if ($id != null) {
+            $model = new LombaModel();
+            $data['orders'] = $model->where('id', $id)->delete();
+            return redirect()->to(base_url('admin/managelomba'));
+        }
     }
 }
