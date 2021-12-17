@@ -53,8 +53,8 @@
 
   <!-- Body -->
   <div class="jumbotron">
-    <h1 class="text-center">Magang</h1>
-    <p class="text-center">Sektor Marketing Universitas Pembangunan Jaya</p>
+    <h1 class="text-center">Lomba</h1>
+    <p class="text-center">Kelompok Lomba dari Badan Eksekutif Mahasiswa Universitas Pembangunan Jaya</p>
   </div>
 
   <div class="container mt-5 mb-3">

@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\LombaModel;
+use App\Models\MagangModel;
 use App\Models\UsersModel;
 
 class Admin extends BaseController
@@ -41,7 +43,10 @@ class Admin extends BaseController
     public function managemagang()
     {
         if (session('nama') == 'Administrator') {
-            echo view("admin/view_managemagang");
+            $model = new MagangModel();
+            $data['magang'] = $model->getMagang();
+
+            echo view('admin/view_managemagang', $data);
         } else {
             return redirect()->to(base_url('/'));
         }
@@ -50,7 +55,10 @@ class Admin extends BaseController
     public function managelomba()
     {
         if (session('nama') == 'Administrator') {
-            echo view("admin/view_managelomba");
+            $model = new LombaModel();
+            $data['lomba'] = $model->getLomba();
+
+            echo view('admin/view_managelomba', $data);
         } else {
             return redirect()->to(base_url('/'));
         }
