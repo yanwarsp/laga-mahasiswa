@@ -60,11 +60,10 @@
 						<div class="account-settings">
 							<div class="user-profile">
 								<div class="user-avatar">
-									<img src="/img/profil_default.png" alt="" height="200px" />
+									<img src="/img/profil_default.png" alt="" height="230px" />
 								</div> <br>
 								<h4 class="user-name text-center">Melinda Rahayu</h4>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -74,69 +73,61 @@
 					<div class="card-body">
 						<div class="row gutters">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<h6 class="mt-3 mb-3">Edit Profile</h6>
+								<h2 class="mt-3 mb-3" style="color: #26b2ab;">Edit Profile</h2> <br>
 							</div>
+
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="fullName">Full Name</label>
-									<input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+									<label for="fullNama">Nama</label>
+									<input type="text" class="form-control" id="namaLengkap" placeholder="Nama Lengkap">
+									<br>
 								</div>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="eMail">Email</label>
-									<input type="email" class="form-control" id="eMail" placeholder="Enter email ID">
+									<label for="website">E-mail</label>
+									<input type="text" class="form-control" id="email" placeholder="E-mail"> <br>
 								</div>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="phone">Phone</label>
-									<input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+									<label for="jurusan">Jurusan</label>
+									<input type="text" class="form-control" id="jurusan" placeholder="Jurusan"><br>
 								</div>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="website">Website URL</label>
-									<input type="url" class="form-control" id="website" placeholder="Website url">
-								</div>
-							</div>
-						</div>
-						<div class="row gutters">
-							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<h6 class="mt-3 mb-2 text-primary">Address</h6>
-							</div>
-							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-								<div class="form-group">
-									<label for="Street">Street</label>
-									<input type="name" class="form-control" id="Street" placeholder="Enter Street">
+									<label for="ptemptTanggalLahir">Tempat Tanggal Lahir</label>
+									<input type="text" class="form-control" id="ttgl" placeholder="Tempat Tanggal Lahir"><br>
 								</div>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="ciTy">City</label>
-									<input type="name" class="form-control" id="ciTy" placeholder="Enter City">
+									<label for="website">Kewarganegaraan</label>
+									<input type="text" class="form-control" id="kewarganegaraan" placeholder="Kewarganegaraan"><br>
 								</div>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="sTate">State</label>
-									<input type="text" class="form-control" id="sTate" placeholder="Enter State">
+									<label for="website">Agama</label>
+									<input type="text" class="form-control" id="agama" placeholder="Agama"><br>
 								</div>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 								<div class="form-group">
-									<label for="zIp">Zip Code</label>
-									<input type="text" class="form-control" id="zIp" placeholder="Zip Code">
+									<label for="website">Alamat</label>
+									<input type="text" class="form-control" id="alamat" placeholder="Alamat"><br>
 								</div>
 							</div>
 						</div>
+
 						<div class="row gutters">
 							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 								<div class="text-right">
 									<br>
 									<br>
-									<button type="button" id="submit" name="submit" class="btn btn-secondary">Cancel</button>
-									<button type="button" id="submit" name="submit" class="btn btn-primary">Update</button>
+									<a class="btn rounded-pill btn-warning mb-2" style="color: white; text-decoration: none;" href="<?= base_url(); ?>/profil">Kembali</a>
+									<button class="btn rounded-pill button1 mb-2" type="submit">Simpan</button>
 								</div>
 							</div>
 						</div>

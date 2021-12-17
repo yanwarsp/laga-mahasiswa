@@ -54,7 +54,7 @@
     <!-- body -->
     <div class="jumbotron">
         <br>
-        <h1 class="text-center mb-3">Your Profile</h1>
+        <h1 class="text-center mb-5 mt-5" style="color: #26b2ab;">Profil Saya</h1>
     </div>
     <br>
 
@@ -75,9 +75,9 @@
 
                 <div class="col-md-6">
                     <div class="profile-head">
-                        <h6>
+                        <h4>
                             Mahasiswa Universitas Pembangunan Jaya
-                        </h6>
+                        </h4>
                         <br>
                         <div class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -112,7 +112,7 @@
                                     <div class="col-md-6">
                                         <p>11 November 2001</p>
                                     </div>
-                                </div>                              
+                                </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>Kewarganegaraan</label>
@@ -138,7 +138,7 @@
                                     </div>
                                     <div class="col-md-6">
                                     </div>
-                                </div>                                                              
+                                </div>
                             </div>
                         </div>
                     </div>

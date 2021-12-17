@@ -56,46 +56,71 @@
     <h1 class="text-center">Magang</h1>
     <p class="text-center">Sektor Marketing Universitas Pembangunan Jaya</p>
   </div>
-  <br> <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <a href="#" class="text-muted textputih">
-        <div class="card w-80">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to
-              additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illum delectus ad ullam iusto eveniet ipsum! Iusto ipsam ab voluptate facere vero, magnam doloribus fuga asperiores repellendus reprehenderit labore consequuntur?</p>
-          </div>
-        </div>
-      </a>
-      <br>
-      <a href="#" class="text-muted textputih">
-        <div class="card w-80">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to
-              additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illum delectus ad ullam iusto eveniet ipsum! Iusto ipsam ab voluptate facere vero, magnam doloribus fuga asperiores repellendus reprehenderit labore consequuntur?</p>
-          </div>
-        </div>
-      </a>
-      <br>
-      <a href="#" class="text-muted textputih">
-        <div class="card w-80">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to
-              additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illum delectus ad ullam iusto eveniet ipsum! Iusto ipsam ab voluptate facere vero, magnam doloribus fuga asperiores repellendus reprehenderit labore consequuntur?</p>
-          </div>
-        </div>
-      </a>
-    </div>
 
-    <div class="col-sm-8" style="background-color:#FFFFFF">
-      <h3><br>Hallo Test saja ya</h3>
+  <div class="container mt-5 mb-3">
+    <div class="row bghijau bgradius">
+      <h4 class="textputih mt-4 text-center">Semua Kegiatan Magang</h4>
+      <div class="row mt-3 d-flex justify-content-center align-items-center mb-3">
+        <div class="col-sm-6 mt-3">
+          <div class="card w-80">
+            <div class="card-body">
+              <a href="#" class="text-muted textputih">
+                <h5 class="card-title">FORKA FEST : Lomba Pemrograman Bagi Seluruh Mahasiswa di Indonesia</h5>
+              </a>
+              <p class="card-text"> Festival tahunan Kegiatan Mahasiswa yang dilaksanakan
+                <br> Oleh Himpunan Mahasiswa Informatika UPJ
+              </p>
+              <p class="card-text"> Total Hadiah 10 Juta Rupiah * 50 JSDP Bagi Pemenang</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mt-3">
+          <div class="card w-80">
+            <div class="card-body">
+              <a href="#" class="text-muted textputih">
+                <h5 class="card-title">Internal Badminton Champions : Lomba Tim Ganda
+                  Campuran, Ganda Putra, dan Tunggal Putra</h5>
+              </a>
+              <p class="card-text">Lomba tahunan UKM Bulutangkis UPJ
+                <br> Akan dilaksanakan pada tanggal 2-4 November 2021 di GOR PB Jaya Raya Bintaro
+              </p>
+              <p class="card-text">Total Hadiah 10 Juta Rupiah * 30 JSDP Bagi Pemenangg
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mt-3">
+          <div class="card w-80">
+            <div class="card-body">
+              <a href="#" class="text-muted textputih">
+                <h5 class="card-title">FORKA FEST : Lomba Pemrograman Bagi Seluruh Mahasiswa di Indonesia</h5>
+              </a>
+              <p class="card-text"> Festival tahunan Kegiatan Mahasiswa yang dilaksanakan
+                <br> Oleh Himpunan Mahasiswa Informatika UPJ
+              </p>
+              <p class="card-text"> Total Hadiah 10 Juta Rupiah * 50 JSDP Bagi Pemenang</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 mt-3">
+          <div class="card w-80">
+            <div class="card-body">
+              <a href="#" class="text-muted textputih">
+                <h5 class="card-title">Internal Badminton Champions : Lomba Tim Ganda
+                  Campuran, Ganda Putra, dan Tunggal Putra</h5>
+              </a>
+              <p class="card-text">Lomba tahunan UKM Bulutangkis UPJ
+                <br> Akan dilaksanakan pada tanggal 2-4 November 2021 di GOR PB Jaya Raya Bintaro
+              </p>
+              <p class="card-text">Total Hadiah 10 Juta Rupiah * 30 JSDP Bagi Pemenangg
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
       <br>
-      <p>aofuy dfuafahefjkhe fksh fhjsdfg jsdhfg jsdhf gjsdkhfgsjdfhgs djg sdjf</p>
     </div>
-    <br>
   </div>
 
   <!-- footer -->
