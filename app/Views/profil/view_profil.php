@@ -52,17 +52,20 @@
   </nav>
 
   <!-- body -->
-  <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login/logout">LOG OUT</a>
-
   <div class="jumbotron">
     <h1 class="text-center">Your Profile</h1>
   </div>
   <br> <br>
   <div class="row">
     <div class="col-sm-4">
+
      <img src="/img/logo2.png" alt="LAGA Mahasiswa" width="9%">
+     <h3 class="text-center">Melinda Rahayu </h3>
+     <a class="nav-link loginmenu rounded-pill mx-5" href="<?= base_url(); ?>/login/logout">LOG OUT</a>
 
     </div>
+
+
 
     <div class="col-sm-8" style="background-color:#FFFFFF">
       <h3><br>Hallo Test saja ya</h3>
