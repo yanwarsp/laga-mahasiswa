@@ -58,7 +58,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/lomba/ukm" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/UKM.jpg" alt="Card image cap" height="170px">
             <div class="card-body">
               <p class="card-text text-center">Unit Kegiatan Mahasiswa</p>
             </div>
@@ -68,7 +68,7 @@
       <div class="col mx-1">
         <a href="<?= base_url(); ?>/lomba/hmj" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/HMJ.jpg" alt="Card image cap" height="170px">
             <div class="card-body">
               <p class="card-text text-center">Himpunan Jurusan</p>
             </div>
@@ -78,7 +78,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/lomba/bem" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/BEM.jpg" alt="Card image cap" height="170px">
             <div class="card-body">
               <p class="card-text text-center">BEM UPJ</p>
             </div>
@@ -88,7 +88,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/lomba/general" class="text-muted texthitam">
           <div class="card animmenu" style="width: 15rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/UPJ_general.jpg" alt="Card image cap" height="170px">
             <div class="card-body">
               <p class="card-text text-center">General UPJ</p>
             </div>

@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\UsersModel;
 
 class Admin extends BaseController
 {
@@ -28,7 +29,10 @@ class Admin extends BaseController
     public function daftaruser()
     {
         if (session('nama') == 'Administrator') {
-            echo view("admin/view_daftaruser");
+            $model = new UsersModel();
+            $data['users'] = $model->getUsers();
+
+            echo view('admin/view_daftaruser', $data);
         } else {
             return redirect()->to(base_url('/'));
         }

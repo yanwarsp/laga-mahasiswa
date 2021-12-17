@@ -94,20 +94,16 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>random</td>
-                <td>data</td>
-                <td>placeholder</td>
-                <td>text</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>placeholder</td>
-                <td>irrelevant</td>
-                <td>visual</td>
-                <td>layout</td>
-              </tr>
+              <?php $i = 1; ?>
+              <?php foreach ($users as $row) : ?>
+                <tr>
+                  <td><?= $i++; ?></td>
+                  <td><?= $row['nama']; ?></td>
+                  <td><?= $row['nim']; ?></td>
+                  <td><?= $row['prodi']; ?></td>
+                  <td>text</td>
+                </tr>
+              <?php endforeach; ?>
             </tbody>
           </table>
         </div>

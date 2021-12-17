@@ -8,7 +8,7 @@ class UsersModel extends Model
 {
     protected $DBGroup              = 'default';
     protected $table                = 'users';
-    protected $primaryKey           = 'id';
+    protected $primaryKey           = 'nim';
     protected $useAutoIncrement     = true;
     protected $insertID             = 0;
     protected $returnType           = 'array';
@@ -39,4 +39,13 @@ class UsersModel extends Model
     protected $afterFind            = [];
     protected $beforeDelete         = [];
     protected $afterDelete          = [];
+
+    public function getUsers($nim = false)
+    {
+        if ($nim === false) {
+            return $this->findAll();
+        } else {
+            return $this->getWhere(['nim' => $nim]);
+        }
+    }
 }

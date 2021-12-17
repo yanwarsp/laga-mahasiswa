@@ -58,7 +58,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/magang/keuangan" class="text-muted texthitam">
           <div class="card animmenu" style="width: 12rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap" height="120px">
             <div class="card-body">
               <p class="card-text text-center">Keuangan</p>
             </div>
@@ -68,7 +68,7 @@
       <div class="col mx-1">
         <a href="<?= base_url(); ?>/magang/ict" class="text-muted texthitam">
           <div class="card animmenu" style="width: 12rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/ict.jpg" alt="Card image cap" height="120px">
             <div class="card-body">
               <p class="card-text text-center">ICT</p>
             </div>
@@ -78,7 +78,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/magang/marketing" class="text-muted texthitam">
           <div class="card animmenu" style="width: 12rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/marketing.jpg" alt="Card image cap" height="120px">
             <div class="card-body">
               <p class="card-text text-center">Marketing</p>
             </div>
@@ -88,7 +88,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/magang/studio" class="text-muted texthitam">
           <div class="card animmenu" style="width: 12rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/studio.jpg" alt="Card image cap" height="120px">
             <div class="card-body">
               <p class="card-text text-center">Studio</p>
             </div>
@@ -98,7 +98,7 @@
       <div class="col">
         <a href="<?= base_url(); ?>/magang/asdos" class="text-muted texthitam">
           <div class="card animmenu" style="width: 12rem;">
-            <img class="card-img-top" src="/img/keuangan_magang.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/img/asisten_dosen.jpg" alt="Card image cap" height="120px">
             <div class="card-body">
               <p class="card-text text-center">Asisten Dosen</p>
             </div>
